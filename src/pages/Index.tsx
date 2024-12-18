@@ -6,23 +6,27 @@ import { useQuery } from '@tanstack/react-query';
 interface Track {
   id: string;
   title: string;
-  url: string;
+  embedCode: string;
 }
 
-// This is a mock function - replace with actual Google Drive API integration
+// Mock data with placeholder iframes for Bandcamp embeds
 const fetchTracks = async (): Promise<Track[]> => {
-  // Simulated API response
   return [
     {
       id: '1',
-      title: 'Demo Track 1',
-      url: 'https://example.com/track1.mp3',
+      title: 'Track 1',
+      embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="about:blank"></iframe>'
     },
     {
       id: '2',
-      title: 'Demo Track 2',
-      url: 'https://example.com/track2.mp3',
+      title: 'Track 2',
+      embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="about:blank"></iframe>'
     },
+    {
+      id: '3',
+      title: 'Track 3',
+      embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="about:blank"></iframe>'
+    }
   ];
 };
 
@@ -50,13 +54,14 @@ const Index = () => {
         </h1>
       </header>
 
-      <TrackList
-        tracks={tracks || []}
-        onTrackSelect={setCurrentTrack}
-        currentTrack={currentTrack}
-      />
-      
-      <MusicPlayer currentTrack={currentTrack} />
+      <div className="max-w-4xl mx-auto grid gap-8">
+        {tracks?.map((track) => (
+          <div key={track.id} className="glass-morphism p-6 rounded-lg">
+            <h2 className="text-xl font-semibold mb-4">{track.title}</h2>
+            <div dangerouslySetInnerHTML={{ __html: track.embedCode }} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
