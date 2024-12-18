@@ -21,9 +21,24 @@ const fetchTracks = async (): Promise<Track[]> => {
       embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="about:blank"></iframe>'
     },
     {
+      id: '2',
+      title: 'Seperate Ways | Circa 2017',
+      embedCode: '<iframe style="border: 0; width: 700px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=2275945456/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/seperate-ways-circa-2017">Seperate Ways Circa 2017 by Lil Wikipedia</a></iframe>'
+    },
+    {
       id: '3',
-      title: 'Track 3',
-      embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=4266689558/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/beattapes-circa-2013">Beattapes Circa 2013 by Lil Wikipedia</a></iframe>'
+      title: 'Afterbirth | Circa 2015',
+      embedCode: '<iframe style="border: 0; width: 700px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=1556366319/size=large/bgcol=333333/linkcol=9a64ff/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/afterbirth-circa-2015">Afterbirth Circa 2015 by Lil Wikipedia</a></iframe>'
+    },
+    {
+      id: '4',
+      title: 'Prenatal | Circa 2014',
+      embedCode: '<iframe style="border: 0; width: 700px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=3428097919/size=large/bgcol=333333/linkcol=fe7eaf/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/prenatal-circa-2014">Prenatal Circa 2014 by Lil Wikipedia</a></iframe>'
+    },
+    {
+      id: '5',
+      title: 'Beattapes | Circa 2013',
+      embedCode: '<iframe style="border: 0; width: 700px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=4266689558/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/beattapes-circa-2013">Beattapes Circa 2013 by Lil Wikipedia</a></iframe>'
     }
   ];
 };
