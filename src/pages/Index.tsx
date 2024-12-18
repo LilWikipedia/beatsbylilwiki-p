@@ -1,7 +1,5 @@
-import { useState } from 'react';
-import MusicPlayer from '@/components/MusicPlayer';
-import TrackList from '@/components/TrackList';
 import { useQuery } from '@tanstack/react-query';
+import { useState } from 'react';
 
 interface Track {
   id: string;
@@ -25,7 +23,7 @@ const fetchTracks = async (): Promise<Track[]> => {
     {
       id: '3',
       title: 'Track 3',
-      embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="about:blank"></iframe>'
+      embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=4266689558/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/beattapes-circa-2013">Beattapes Circa 2013 by Lil Wikipedia</a></iframe>'
     }
   ];
 };
