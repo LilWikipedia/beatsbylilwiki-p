@@ -58,8 +58,11 @@ const Index = () => {
     <div className="min-h-screen pb-24">
       <header className="p-8 text-center">
         <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-400">
-          My Instrumentals
+          Beats by Lil Wikipedia
         </h1>
+        <h2 className="text-2xl font-italiac bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-blue-200">
+          aka Cruz Wootten
+        </h2>
       </header>
 
       <div className="max-w-4xl mx-auto grid gap-8">
