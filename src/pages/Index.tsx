@@ -12,13 +12,8 @@ const fetchTracks = async (): Promise<Track[]> => {
   return [
     {
       id: '1',
-      title: 'Track 1',
-      embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="about:blank"></iframe>'
-    },
-    {
-      id: '2',
-      title: 'Track 2',
-      embedCode: '<iframe style="border: 0; width: 400px; height: 472px;" src="about:blank"></iframe>'
+      title: 'throwaways | 2018 - Present',
+      embedCode: '<iframe style="border: 0; width: 700px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3353214120/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/throwaways-2018-present">throwaways 2018 - Present by Lil Wikipedia</a></iframe>'
     },
     {
       id: '2',
