@@ -13,7 +13,7 @@ const fetchTracks = async (): Promise<Track[]> => {
     {
       id: '1',
       title: 'throwaways | 2018 - Present',
-      embedCode: '<iframe style="border: 0; width: 700px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3353214120/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/throwaways-2018-present">throwaways 2018 - Present by Lil Wikipedia</a></iframe>'
+      embedCode: '<iframe style="border: 0; width: 700px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=3353214120/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="https://lilwikipedia.bandcamp.com/album/throwaways-2018-present">throwaways 2018 - Present by Lil Wikipedia</a></iframe>'
     },
     {
       id: '2',
@@ -57,12 +57,30 @@ const Index = () => {
   return (
     <div className="min-h-screen pb-24">
       <header className="p-8 text-center">
-        <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-400">
+        <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600">
           Beats by Lil Wikipedia
         </h1>
-        <h2 className="text-2xl font-italiac bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-blue-200">
+        <h2 className="text-2xl font-italiac bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-blue-500">
           aka Cruz Wootten
         </h2>
+        <h3 className="text-1xl font-thin bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-blue-100">
+        Most of these are unfinished...cause that Fortnite money good
+        </h3>
+        <h4 className="text-1xl font-thin bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-blue-100">
+        Pick a track, let me lace you up in my studio.
+        </h4>
+        <h5 className="text-1xl font-thin bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-blue-100">
+        If it's my beat then studio time is on the house.
+        </h5>
+        <h6 className="text-1xl font-thin bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-blue-100">
+        LilWikipediaFN@gmail.com
+        </h6>
+        <h6 className="text-1xl font-thin bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-blue-100">
+        CA Native | Reno, NV since '06
+        </h6>
+        <h6 className="text-1xl font-thin bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-blue-100">
+        (excuse my naming conventions🤷‍♂️)
+        </h6>
       </header>
 
       <div className="max-w-4xl mx-auto grid gap-8">
